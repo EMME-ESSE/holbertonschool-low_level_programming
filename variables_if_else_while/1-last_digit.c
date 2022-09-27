@@ -4,7 +4,7 @@
 /**
 *** main - Entry point
 ***
-**/i
+**/
 int main(void)
 {
 int n;
