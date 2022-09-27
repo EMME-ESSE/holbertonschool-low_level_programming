@@ -2,9 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-*** main - Entry point
-***
-**/
+ *  * function_name - Short description, single line
+ *   * @parameterx: Descx
+ *    * Description: Longer description of the function)?
+ *     * Return: Description of the returned value
+ *      */
 int main(void)
 {
 int n;
