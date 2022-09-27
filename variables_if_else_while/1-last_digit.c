@@ -3,7 +3,6 @@
 #include <time.h>
 /**
  *  * function_name - Short description, single line
- *   * @parameterx: Descx
  *    * Description: Longer description of the function)?
  *     * Return: Description of the returned value
  *      */
