@@ -6,17 +6,11 @@
  *   *
  *    * Return: Always 0 (Success)
  *    *     */
-int main()  
-{  
-	    char ch = 'a';  
-	      
-	        printf("Lowercase English Alphabets:\n");  
-		    while(ch <= 'z')  
-			        {  
-					        printf("%c ", ch);  
-						        ch++;  
-							    }  
-		        printf("\n");  
-			  
-			    return 0;  
-}  
+int main(void)
+{
+char low;
+for (low = 'a'; low <= 'z'; low++)
+putchar(low);
+putchar('\n');
+return (0);
+}
