@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  *  * _isalpha - Check Holberton
- *   * @c: An input character
- *    * Description: function 
- *      * Return: returns 1 if c is a letter, lowercase or uppercase 0 otherwise
+ *  * @c: An input character
+ *  * Description: function 
+ *  * Return: returns 1 if c is a letter, lowercase or uppercase 0 otherwise
 **/
 int _isalpha(int c)
 {
