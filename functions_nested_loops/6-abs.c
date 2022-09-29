@@ -5,7 +5,7 @@
 ** Description: _abs function prints the sign of the number
 ** Return: positive
 **/
-int _abs(int)
+int _abs(int);
 {
 	int r;
 		if (r >= 0)
