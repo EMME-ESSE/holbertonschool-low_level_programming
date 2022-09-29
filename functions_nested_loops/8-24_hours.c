@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *  * jack_bauer - Prints every minute and hour from 00:00 to 23:59
- *   * @n: The time.
+ *   * @: The time.
  *     * Return: Value of the last digit.
 **/
 void jack_bauer(void)
