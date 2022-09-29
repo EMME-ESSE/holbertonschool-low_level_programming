@@ -5,15 +5,13 @@
  * * Return: Nothing.
 **/
 void print_alphabet_x10(void);
-{
-int a = 1;	
+{	
 char word[8] = "_putchar";
-int i;
-while  (a < 10)
+int i , a ;
+for (a = 0; 0 < 10, a++)
 {
 for (i = 0; i < 8; i++)
 putchar(word[i]);
 putchar('\n');
 }
-a++;
 }
