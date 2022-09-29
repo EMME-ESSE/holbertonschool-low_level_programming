@@ -1,15 +1,14 @@
 #include "main.h"
 /**
-** _abs functionn - Check Holberton
-** @n: im done
-** Description: _abs function prints the sign of the number
-** Return: positive
+** _abs - Computes the absolute value of an integer.
+** @n: The integer to be computed.
+** Return: The absolute value of the integer.
 **/
 int _abs(int);
-{
-	int r;
-		if (r >= 0)
-					return (r);
+	{
+		int r;
+			if (r >= 0)
+						return (r);
 			else
 						return (-r);
-}
+	}
