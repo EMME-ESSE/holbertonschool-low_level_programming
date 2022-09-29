@@ -6,13 +6,14 @@
 **/
 void print_alphabet_x10(void);
 {
-int a;	
+int a = 1;	
 char word[8] = "_putchar";
 int i;
-for (a = 1; a < 10; a++)
+while  (a < 10)
 {
 for (i = 0; i < 8; i++)
 putchar(word[i]);
 putchar('\n');
 }
+a++;
 }
