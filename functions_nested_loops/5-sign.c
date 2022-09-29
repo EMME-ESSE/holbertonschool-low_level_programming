@@ -23,7 +23,6 @@ else
 {
 value = -1;
 _putchar('-');
-													}
-
-						return (value);
+}
+return (value);
 }
