@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * ** print_last_digit - Computes the absolute value of an integer.
- * ** @n: Prints the las digits
+ * ** print_last_digit - Print the las digits of few numbers.
+ * ** @n: Prints the last digit
  * ** Return: 0.
 **/
-int print_last_digit(int);
+int print_last_digit(int r);
 {
-int r;
-_putchar(r % 10);
+int f = r % 10;
+_putchar(f);
 _putchar('\n');
 return (0);
 }
