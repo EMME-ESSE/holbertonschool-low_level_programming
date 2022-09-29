@@ -1,9 +1,12 @@
 #include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  *  * main - Check description
  *   * Description: Good.
  *    * Return: 0.
- *     */
+**/
 int main(void)
 {
 char word[8] = "_putchar";
