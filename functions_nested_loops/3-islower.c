@@ -15,5 +15,5 @@ for (a = 'a'; a <= 'z'; a++)
 if (a == c)
 num = 1;
 }
-return (lower);
+return (num);
 }
