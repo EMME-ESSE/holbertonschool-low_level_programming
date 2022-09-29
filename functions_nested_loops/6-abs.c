@@ -6,15 +6,10 @@
  *     *     * Return: 1 if number is positive, o if number is 0, or
  *      *      * -1 if number is negative
 **/
-int _abs(int);
+int _abs(int)
 {
-int r;
-if (r >= 0)
-{
-return (r);
-}
-else
-{
-return (-r);
-}
+		if (r >= 0)
+					return (r);
+			else
+						return (-r);
 }
