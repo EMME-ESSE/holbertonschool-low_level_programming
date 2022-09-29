@@ -6,12 +6,12 @@
 **/
 void print_alphabet_x10(void);
 {	
-char word[8] = "_putchar";
-int i , a ;
+char alp
+int a ;
 for (a = 0; 0 < 10, a++)
 {
-for (i = 0; i < 8; i++)
-putchar(word[i]);
-putchar('\n');
+for (alp = 'a'; alp <= 'z'; i++)
+_putchar(i);
+_putchar('\n');
 }
 }
