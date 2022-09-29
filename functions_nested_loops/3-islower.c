@@ -5,16 +5,17 @@
  *    * alphabet in lowercase 10 times
  *     * Return: Nothing.
 **/
-
 int _islower(int c);
 {
-int c = 'a';
-if (islower(c))
+char a;
+
+int num = 0;
+if (islower(a))
 {
-	return(1);
+	num = 1
 }
 else
 {
-	return(0);
+	num = 0;
 }
 }
