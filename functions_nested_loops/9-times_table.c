@@ -7,7 +7,7 @@ void times_table(void)
 {
 int tb;
 int mul;
-for (tb = 1; tb <= 10; tb++)
+for (tb = 0; tb <= 9; tb++)
 {
 for (mul = 0; mul <= 9; mul++)
 printf ("%d", tb*mul);
