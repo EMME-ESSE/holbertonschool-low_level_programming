@@ -13,10 +13,11 @@ void times_table(void)
 		{
 			for (mul = 0; mul <= 9; mul++)
 			{
-				if (((tb * mul) / 10) == 0)
-					(printf ("%d,  ", tb * mul);
+				int tot = tb*mul;
+				if ((tot / 10) == 0)
+					(printf ("%d,  ", tot);
 				else 
-				printf ("%d, ", tb * mul);
+				printf ("%d, ", tot);
 		}
 	}
 }
