@@ -6,6 +6,6 @@
 **/
 int print_last_digit(int r)
 {
-printf ("%d" + "0", r % 10);
+_putchar ('0' + r);
 return (r % 10);
 }
