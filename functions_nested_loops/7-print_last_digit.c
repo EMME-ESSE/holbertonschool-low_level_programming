@@ -1,8 +1,8 @@
 #include "main.h"
 /**
 ** print_last_digit - Print the las digits of few numbers.
-** @r: Prints the last digit
-** Return: 0.
+** @r: Prints the last digit.
+ *  * Return: n
 **/
 int print_last_digit(int n)
 {
