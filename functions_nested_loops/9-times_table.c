@@ -9,7 +9,7 @@ int tb;
 int mul;
 for (tb = 1; tb <= 10; tb++)
 {
-for (mul = 1; mul <= 10; mul++)
+for (mul = 0; mul <= 9; mul++)
 printf ("%d", tb*mul);
 }
 }
