@@ -7,7 +7,7 @@
 int print_last_digit(int r)
 {
 int f = r % 10;
-printf (f);
-printf ('\n');
+_putchar (f);
+_putchar ('\n');
 return (0);
 }
