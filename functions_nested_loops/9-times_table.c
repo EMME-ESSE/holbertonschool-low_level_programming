@@ -7,17 +7,16 @@ void times_table(void)
 {
 	int tb;
 	int mul;
-	int tot = tb*mul;
 	for (tb = 0; tb <= 9; tb++)
 	{
 		printf ("\n");
 		{
 			for (mul = 0; mul <= 9; mul++)
 			{
-				if ((tot / 10) == 0)
-					(printf ("%d,  ", tot);
+				if (((tb*mul) / 10) == 0)
+					(printf ("%d,  ", tb*mul);
 				else 
-				printf ("%d, ", tot);
+				printf ("%d, ", tb*mul);
 		}
 	}
 }
