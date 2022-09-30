@@ -11,14 +11,14 @@ _putchar(n);
 _putchar(",");
 _putchar(" ");
 n++;
+}
 else if (n > 98)
 {
 _putchar(n);
 _putchar(",");
 _putchar(" ");
 n--;
-else
+}
+else 
 _putchar(n);
-}
-}
 }
