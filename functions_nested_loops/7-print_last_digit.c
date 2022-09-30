@@ -6,7 +6,6 @@
 **/
 int print_last_digit(int r)
 {
-n = r % 10	
-printf ("%d", n);
+printf ("%d", r % 10);
 return (0);
 }
