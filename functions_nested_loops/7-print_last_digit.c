@@ -1,9 +1,10 @@
 #include "main.h"
 /**
-** print_last_digit - Print the las digits of few numbers.
-** @r: Prints the last digit.
- *  * Return: n
-**/
+ *  * print_last_digit - Last digit
+ *   * @n: Desc
+ *    * Description: Prints the last digit in different sign cases
+ *     * Return: n
+ *      */
 int print_last_digit(int n)
 {
 if (n >= 0)
