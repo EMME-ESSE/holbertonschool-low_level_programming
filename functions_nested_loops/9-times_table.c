@@ -7,25 +7,29 @@ void times_table(void)
 {
 int tb;
 int mul;
-int tot;
+int t;
 
 for (tb = 0; tb <= 9; tb++)
 {
-printf ("\n");
-{
+
 for (mul = 0; mul <= 9; mul++)
 {
-tot = tb*mul;	
-if ((tot / 10) == 0)
+t = tb*mul;	
+if ((t / 10) == 0)
 {
 if (mul != 9)	
-printf ("%d,  ", tot);
+_putchar (t);
+_putchar (',')
+_putchar (' ');
+_putchar (' ');
 else
-printf ("%d", tot)
+_putchar (t);
 }
 else 
-printf ("%d, ", tot);
+_putchar (t);
+_putchar (',');
+_putchar (' ');
 }
 }
+_putchar ("\n")
 }
-}	
