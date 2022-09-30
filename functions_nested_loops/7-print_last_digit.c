@@ -4,7 +4,7 @@
  *   * @n: Desc
  *    * Description: Prints the last digit in different sign cases
  *     * Return: n
- *      */
+**/
 int print_last_digit(int n)
 {
 if (n >= 0)
