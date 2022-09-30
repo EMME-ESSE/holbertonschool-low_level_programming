@@ -19,7 +19,7 @@ if ((t / 10) == 0)
 {
 if (mul != 9)	
 _putchar (t);
-_putchar (',')
+_putchar (',');
 _putchar (' ');
 _putchar (' ');
 else
@@ -31,5 +31,5 @@ _putchar (',');
 _putchar (' ');
 }
 }
-_putchar ("\n")
+_putchar ("\n");
 }
