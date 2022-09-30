@@ -3,10 +3,8 @@
  * times_table - Prints the 9 times table.
  *
 **/
-void times_table(void)
+void times_table(int tb, int mul)
 {
-int tb;
-int mul;
 for (tb = 1; tb <= 10; tb++)
 {
 for (mul = 1; mul <= 10; mul++)
