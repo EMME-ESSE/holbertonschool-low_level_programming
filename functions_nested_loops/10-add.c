@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  *  * add - Add two input integers and makes the result between them
- *   *@a,b - both the integer input numbers
+ *   *@a  - first integer for the input numbers
+ *   * @b - second integer
  *    * Return: The result of the nums..
  *     */
 int add(int a, int b)
