@@ -5,8 +5,11 @@
 **/
 void times_table(void)
 {
- for (int tb = 1; tb <= 20; tb++) {
-	       for (int mul = 1; mul <= 10; mul++) {
-(tb + " * " + (mul) + " = " + (tb * (mul)));
+int tb;
+int mul;
+ for (tb = 1; tb <= 10; tb++) {
+	       for (mul = 1; mul <= 10; mul++) 
+	       {
+		       printf (tb * mul);
 	       }
 }
