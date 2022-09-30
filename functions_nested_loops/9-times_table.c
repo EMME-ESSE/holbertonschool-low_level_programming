@@ -15,7 +15,7 @@ printf ("\n");
 for (mul = 0; mul <= 9; mul++)
 {
 if ((tot / 10) == 0)
-(printf ("%d,  ", tot);
+printf ("%d,  ", tot);
 else 
 printf ("%d, ", tot);
 }
