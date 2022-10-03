@@ -5,5 +5,5 @@
 #include <stdio.h>
 
 void print_school(void);
-void print_vars(void);
+voi
 #endif
