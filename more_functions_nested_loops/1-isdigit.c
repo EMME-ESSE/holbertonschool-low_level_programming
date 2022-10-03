@@ -4,12 +4,11 @@
  *   *   * @c: The digit to be checked..
  *    *     * Return: 1 if it is a digit and 0 otherwise.
  *    **/
-int _isupper(int c)
+int _isdigit(int c)
 {
+		if (c >= '0' && c <= '9')
+					return (1);
 
-	if (isdigit(c) == 0)
-		         printf("%c is not a digit.",c);
-	    else
-		             printf("%c is a digit.",c);
-	        return 0;
+			else
+						return (0);
 }
