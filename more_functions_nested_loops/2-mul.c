@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- *  *print_alphabet - Check description
- *   * Description: It prints the alphabet in lowercase fallowed by a new line
- *    *Return: 0.
+ *  *mul: Multiplaying function for two integers
+ *   * @a: first integer.
+ *   * @b: second integer to multiply
+ *    *Return: a+b.
 **/
 int mul(int a, int b)
 {
