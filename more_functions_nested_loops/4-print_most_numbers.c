@@ -4,6 +4,7 @@
 **/
 void print_most_numbers(void)
 {
+int c;	
 		if (c >= '0' && c <= '9')
 			if (c != 4 || c != 2)
 				return (1);
