@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  *  * print_numbers - Multiples two integers.
- *   * @a: Number to print.
  *      * Return: The result of the multiplication.
 **/
 void print_numbers(void)
