@@ -13,7 +13,7 @@ for (l = 0; l < n; l++)
 for (f = 0; f < l; f++)
 _putchar(' ');
 _putchar('\\');
-if (l == n -1)
+if (l == n - 1)
 continue;
 _putchar('\n');
 }
