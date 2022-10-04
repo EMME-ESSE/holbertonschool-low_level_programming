@@ -15,10 +15,10 @@ else if ((fizz % 5) == 0 && (fizz % 3) == 0)
 printf("FizzBuzz");
 else
 printf("%d", fizz);
-}
 if (fizz == 100)
 continue;
 printf(" ");
-_putchar("\n");
+}
+printf("\n");
 return(0);
 }
