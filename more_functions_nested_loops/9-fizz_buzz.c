@@ -5,7 +5,7 @@
 int main(void)
 {
 int fizz;
-for (fizz = 1; fizz < 100; fizz++)
+for (fizz = 1; fizz <= 100; fizz++)
 {
 if ((fizz % 3) == 0)
 printf("Fizz");
