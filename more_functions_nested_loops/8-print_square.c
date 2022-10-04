@@ -8,9 +8,11 @@ void print_square(int size)
 int h, w;
 if (size > 0)
 {
-for (hgt = 0; hgt < size; hgt++)
-{															for (wid = 0; wid < size; wid++)											_putchar('#');
-if (hgt == size - 1)
+for (h = 0; h < size; h++)
+{
+for (w = 0; w < size; w++)
+_putchar('#');
+if (h == size - 1)
 continue;
 _putchar('\n');
 }
