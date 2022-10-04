@@ -1,6 +1,8 @@
 #include "main.h"
 /**
-  *  * main - Prints numbers from 0 to 100 with a phrase depending on * 3 or * 5 or both.
+  *  * main - Prints numbers from 0 to 100 with a phrase depending
+  *  * on * 3 or * 5 or both.
+  *  * Return: Returns the values of the function
 **/
 int main(void)
 {
