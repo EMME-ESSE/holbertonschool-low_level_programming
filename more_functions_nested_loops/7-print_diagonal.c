@@ -1,6 +1,7 @@
 #include "main.h"
 /**
-*  * print_line - Prints lines depending to the input "n" .
+*  * print_diagonal - Prints the diagonal depending to the input "n".
+*  * @n: input for the diagonal.
 **/
 void print_diagonal(int n)
 {
@@ -10,6 +11,7 @@ if (n > 0)
 for (l = 0; l < n; l++)
 {
 _putchar('\\');
+_putchar(' ')
 _putchar('\n');
 }
 }
