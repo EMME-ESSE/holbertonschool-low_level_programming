@@ -3,19 +3,14 @@
  *  *  * print_square - Prints a squareusing the character #.
  *   *   * @size: The size of the square.
  *    *    */
-void print_triangle(int size)
+void main(void)
 {
-	int h, w;
-	if (size > 0)
-	{
-		for (h = 0; h < size; h++)
-		{
-			for (w = 0; w < size; w++)
-				_putchar('#');
-			if (h == size + 1)
-				continue;
-			_putchar('\n');
-		}
-	}
-	_putchar('\n');
+int fizz;
+for (fizz = 0; fizz < 100; fizz++)
+{
+if (fizz % 3 = 0 || fizz % 5 = 0)
+_putchar('fizz');
+else
+_putchar(fizz);
+}
 }
