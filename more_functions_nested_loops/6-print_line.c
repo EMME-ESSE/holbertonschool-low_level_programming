@@ -1,8 +1,9 @@
 #include "main.h"
 /**
 *  * print_line - Prints lines depending to the input "n" .
+*  * @n: The input int.
 **/
-void print_line(void)
+void print_line(int n)
 {
 int l;
 if (n > 0)
