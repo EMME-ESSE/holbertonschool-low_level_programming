@@ -8,17 +8,17 @@ int fizz;
 for (fizz = 1; fizz < 100; fizz++)
 {
 if ((fizz % 3) == 0)
-_putchar('Fizz');
+printf("Fizz");
 else if ((fizz % 5) == 0)
-_putchar('Buzz');
+printf("Buzz");
 else if ((fizz % 5) == 0 && (fizz % 3) == 0)
-_putchar('FizzBuzz');
+printf("FizzBuzz");
 else
-_puchar(fizz + '0');
+printf(fizz);
 }
 if (fizz == 100)
 continue;
-_putchar(' ');
-_putchar('\n');
+printf(" ");
+_putchar("\n");
 return(0);
 }
