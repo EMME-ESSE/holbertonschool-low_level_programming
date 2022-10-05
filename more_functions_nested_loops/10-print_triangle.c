@@ -1,11 +1,12 @@
 #include "main.h"
 /**
- *  *  * print_square - Prints a squareusing the character #.
- *   *   * @size: The size of the square.
- *    *    */
+*  * print_triangle - Prints the # triangle.
+*   * @size: The size of the square.
+**/
 void print_triangle(int size)
 {
 int times, spaces
+
 if (size > 0)
 {
 for (times = 1; times <= size; times++)
