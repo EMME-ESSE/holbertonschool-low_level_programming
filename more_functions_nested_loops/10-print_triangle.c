@@ -5,8 +5,7 @@
 **/
 void print_triangle(int size)
 {
-int times, spaces
-
+int times, spaces;
 if (size > 0)
 {
 for (times = 1; times <= size; times++)
