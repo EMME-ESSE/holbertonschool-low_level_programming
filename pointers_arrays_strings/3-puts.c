@@ -4,7 +4,7 @@
  *   *   * @str: The length of the string .
  *    *    * Return: 0
  *    **/
-void _puts(char *str)
+void_putss(char *str)
 {
 	puts(*str[]);
 	return(0);

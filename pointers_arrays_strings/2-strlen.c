@@ -1,13 +1,14 @@
 #include "main.h"
 /**
  *  * _strlen - Writes the length of a string.
- *   * @str: The length of the string .
+ *   * @s: The length of the string .
  *    * Return: 0
 **/
-size_t _strlen(const char *str)
+int _strlen(char *s)
 {
-size_t length = 0;
-while (*str++)
-length++;
-return (length);
+{
+int len = 0;
+while (s[len] != '\0')
+len++;
+return (len);
 }
