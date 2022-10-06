@@ -5,7 +5,7 @@
 **/
 void _puts(char *str)
 {
-	while(*str)
-	_putchar(*str++);
-	_puthcar('\n');
+while(*str)
+_putchar(*str++);
+_puthcar('\n');
 }
