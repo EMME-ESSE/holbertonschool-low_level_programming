@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *  *  * _strlen - Writes the length of a string.
- *   *   * @str: The length of the string.
- *    **/
+** _puts - Writes a string.
+** @str: The string.
+**/
 void _puts(char *str)
 {
 	while(*str)
