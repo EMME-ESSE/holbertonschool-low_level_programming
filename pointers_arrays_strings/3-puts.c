@@ -3,7 +3,7 @@
  *  *  * _strlen - Writes the length of a string.
  *   *   * @str: The length of the string.
  *    **/
-void_putss(char *str)
+void _puts(char *str)
 {
 	while(*str)
 	_putchar(*str++);
