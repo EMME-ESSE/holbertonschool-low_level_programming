@@ -1,7 +1,7 @@
 #include "main.h"
 #include <string.h>
 /**
- *  *  * _strlen - Writes a String in reverse.
+ *  *  * print_rev - Writes a String in reverse.
  *   *   * @s: The String .
  *    *    * Return: 0
 **/
