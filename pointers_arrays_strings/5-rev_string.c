@@ -9,8 +9,8 @@ void rev_string(char *s)
 int len = 0;
 char cas;
 while (s[len] != '\0')
-	len++;
+	len--;
 while (len)
-cas = (s[--len]);
-printf("%d", cas);
+_putchar(s[--len]);
+_putchar('\n');
 }
