@@ -1,12 +1,8 @@
 /**
- *  *  * _isupper - Checks for uppercase characters.
- *   *   * @c: The character to be checked.
- *    *     * Return: 1 if character is uppercase, 0 otherwise.
+ *  *  * reset_to_98 - Resets the value of the pointer *n.
+ *   *   * @*n: The pointer.
  *    **/
 void reset_to_98(int *n)
 {
-int n;
-n = (&n);
 *n = 98;
-return(0);
 }
