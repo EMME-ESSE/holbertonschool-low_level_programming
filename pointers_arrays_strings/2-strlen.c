@@ -4,12 +4,10 @@
  *   * @s: The length of the string .
  *    * Return: 0 
  *     */
-
-
-int _strlen(char *s)
+size_t _strlen(const char *str)
 {
-	int len;
-	char s[50];
-	len = _strlen();
-	return(0);
+size_t length = 0;
+while (*str++)
+length++;
+return (length);
 }
