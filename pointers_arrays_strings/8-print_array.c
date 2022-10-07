@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- *  *  *  * print_rev - Writes a String in reverse.
- *   *   *   * @s: The String .
- *    *    *    * Return: 0
- *    **/
+*  * print_array - Prints n elements of an array of integers..
+*   *   * @s: The array of integers .
+*    *    * Return: 0
+**/
 void print_array(int *a, int n)
 {
 int i;
