@@ -10,5 +10,5 @@ char *_strcpy(char *dest, char *src)
 char *ayuda = dest;
 while (*src)
 *dest++ = *src++;
-return (ayuda);
+return (*ayuda);
 }
