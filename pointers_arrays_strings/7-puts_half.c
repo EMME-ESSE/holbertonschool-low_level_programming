@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- *  * puts_half - a function that prints half of a string, followed by a new line.
+ *  * puts_half - a function that prints half of a string
+ *  * followed by a new line.
  *   * @str: An input string
- *    * Return: Nothing
- *     */
+ *   * Return: Nothing
+**/
 void puts_half(char *str)
 {
 int len = 0, i, n;
