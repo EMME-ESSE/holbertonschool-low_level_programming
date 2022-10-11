@@ -8,10 +8,9 @@
 char *_strchr(char *s, char c)
 {
 int len, i;
-char *f;
 len = strlen(s);
-*s = c
-for (i = 0; i < len; i++)
+*s = c;
+for (i = 0; i <= len; i++)
 {
 if (c[i] == s[i] && c[i] == NULL)
 {
