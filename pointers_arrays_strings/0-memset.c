@@ -8,6 +8,11 @@
  * **/
 char *_memset(char *s, char b, unsigned int n)
 {
-y = memset(&s, b, sizeof(n));
-printf("%s", y);
+char *aux = s;
+while (n--)
+{
+*s = b;
+s++;
+}
+return (aux);
 }
