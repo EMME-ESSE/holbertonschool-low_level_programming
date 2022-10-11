@@ -1,24 +1,19 @@
 #include "main.h"
 /**
- *  * _strchr - a function that copys memory area
- *   * @s: memory area destination to copy
- *    * @c: memory area source to copy from
- *      * Return: returns pointer to copy location
-**/
+ *  * _strchr - a function that locates a character in a string.
+ *   * @s: an input string to search in
+ *    * @c: an input character to locate into string s
+ *     * Return: returns pointer to c position
+ *      */
 char *_strchr(char *s, char c)
 {
-int len, i;
-len = strlen(s);
-*s = c;
-for (i = 0; i <= len; i++)
+while (*s)
 {
-if (c[i] == s[i] && c[i] == NULL)
-{
-printf("%s", c[i]);
+if (c == *s)
+return (s);
+s++;
 }
-if (c[i] == s[i] && c[i] != NULL)
-{
-printf("%s", c[i]);
-}
-}
+if (c == *s)
+return (s);
+return (NULL);
 }
