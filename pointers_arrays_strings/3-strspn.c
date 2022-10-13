@@ -18,7 +18,8 @@ if (*s == accept[index])
 num++;
 break;
 }
-else if(accept != '\0')												return(num);
+else if(accept[index] != '\0')
+return(num);
 }
 s++;
 }
