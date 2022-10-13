@@ -1,20 +1,27 @@
 #include "main.h"
 /**
- ** _strcmp - Compares pointers to two strings.
- ** @s1: A pointer to the first string to be compared.
- ** @s2: A pointer to the second string to be compared.
- ** Return: If str1 < str2, the negative difference of
- **         the unmatched characters.
- **         If str1 == str2, the result will return 0.
- **         If str1 > str2, the positive difference of the
- **         unmatched characters.
+**_strspn - Gets the length of a prefix substring.
+** @s: The String to be calculated
+** @accept: the prefix
+** Return: A length.
 **/
-int _strcmp(char *s1, char *s2)
+unsigned int _strspn(char *s, char *accept)
 {
-while (*s1 && *s2 && *s1 == *s2)
-{
-s1++;
-s2++;
+	unsigned int num;
+	int index;
+	while(*s)
+	{
+		for (index = 0; accept[index]; index++)
+		{
+			if (*s == accept[index])
+			{
+				num++;
+			}
+			else if(accept != 'NULL')
+			return(num)
+		}
+		s++;
+	}
+return(num);
 }
-return (*s1 - *s2);
-}
+
