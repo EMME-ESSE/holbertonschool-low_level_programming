@@ -5,23 +5,21 @@
 ** @accept: the prefix
 ** Return: The length.
 **/
-unsigned int _strspn(char *s, char *accept)
 {
-unsigned int num;
+unsigned int bytes = 0;
 int index;
-while(*s)
+while (*s)
 {
 for (index = 0; accept[index]; index++)
 {
 if (*s == accept[index])
 {
-num++;
-break;
-}
-else if(accept[index] != '\0')
-return(num);
+bytes++;
+break;															}
+else if (accept[index + 1] == '\0')
+return (bytes);
 }
 s++;
 }
-return(num);
+return (bytes);
 }
