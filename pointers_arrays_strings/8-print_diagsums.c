@@ -1,31 +1,24 @@
 #include "main.h"
+#include <stdio.h>
 /**
- *  * _strstr - Locates a substring.
- *   * @haystack: The string to be searched.
- *    * @needle: The substring to be located.
- *     *
- *      * Return: If the substring is located - a pointer to the beginning
- *       *                                       of the located substring.
- *        *         If the substring is not located - NULL.
-**/
-char *_strstr(char *haystack, char *needle)
+ *  * print_diagsums - Prints the sum of the two diagonals
+ *   *                  of a square matrix of integers.
+ *    * @a: The matrix of integers.
+ *     * @size: The size of the matrix.
+ *      */
+void print_diagsums(int *a, int size)
 {
-int index;
-if (*needle == 0)
-return (haystack);
-while (*haystack)
+int index, sum1 = 0, sum2 = 0;
+for (index = 0; index < size; index++)
 {
-index = 0;
-if (haystack[index] == needle[index])
+sum1 += a[index];
+a += size;
+}
+a -= size;
+for (index = 0; index < size; index++)
 {
-do {
-if (needle[index + 1] == '\0')
-return (haystack);
-index++;
+sum2 += a[index];
+a -= size;
 }
-while (haystack[index] == needle[index]);
-}
-haystack++;
-}
-return ('\0');
+printf("%d, %d\n", sum1, sum2);
 }
