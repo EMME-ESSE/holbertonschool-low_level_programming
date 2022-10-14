@@ -13,5 +13,5 @@ if ((n * n-1) < 0)
 return -1;
 if (fact > 0)
 return (fact);
-return;
+return ();
 }
