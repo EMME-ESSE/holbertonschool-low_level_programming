@@ -5,9 +5,5 @@
 **/
 void _puts_recursion(char *s)
 {
-
-	   printf("%s", s); // %s is format specifier
-
-	      return 0;
-
+printf("%s", s); 
 }
