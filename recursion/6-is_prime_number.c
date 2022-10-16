@@ -14,7 +14,7 @@ if (x == 1)
 return (1);
 if (n % x == 0 && x > 0)
 return (0);
-return (actual_prime(n, x - 1));
+return (div_num(n, x - 1));
 }
 
 /**
