@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  *  * main - Prints the number of arguements passed.
  *   * @argc: An argument counter
