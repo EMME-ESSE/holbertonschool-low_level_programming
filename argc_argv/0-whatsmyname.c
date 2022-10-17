@@ -3,6 +3,7 @@
 * main - rename the file.
 * @argc: arguement count
 * @argv: argument value, a strings that come after calling function
+* Return: 0
 **/
 int main(int argc, char *argv[])
 {
