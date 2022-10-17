@@ -5,7 +5,7 @@
 ** @accept: the prefix
 ** Return: A length.
 **/
-unsigned int _strspn(char *s, char *accept)
+int _strcmp(char *s1, char *s2) 
 {
 }
 
