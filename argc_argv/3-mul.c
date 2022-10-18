@@ -7,9 +7,12 @@
 **/
 int main(int argc, char *argv[])
 {
-int res
-	while (argc--)
-res = argv * argv++;
-printf("%d\n", result);
-return (0);
+int n,m;
+if(argc!=2){
+printf("Error");
+return(1);
+}else{
+printf("El resultado es %d", n*m);
+}
+return 0;
 }
