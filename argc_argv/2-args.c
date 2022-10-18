@@ -7,7 +7,10 @@
  *     **/
 int main(int argc, char *argv[])
 {
-	if (argc > 0)
-		printf("%s\n", argv[i]);
+	for (int i = 0; i < argc; i++)
+	{
+		if (argc > 0)
+			printf("%s\n", argv[i]);
+	}
 	return (0);
 }
