@@ -8,6 +8,6 @@
 int main(int argc, char *argv[])
 {
 	if (argc > 0)
-		printf("%d\n", argv[0] + 1);
+		printf("%s\n", *a);
 	return (0);
 }
