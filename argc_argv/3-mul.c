@@ -2,7 +2,7 @@
 /**
 ** main - Write a program that multiplies two numbers
 ** @argc: This is the number of arguments
-** @argv: This is the array of argument 
+** @argv: This is the array of argument
 ** Return: Zero upon program success
 **/
 int main(int argc, char **argv)
