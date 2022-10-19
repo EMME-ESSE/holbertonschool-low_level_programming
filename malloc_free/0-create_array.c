@@ -6,9 +6,6 @@
 **/
 char *create_array(unsigned int size, char c)
 {
- */
-char *create_array(unsigned int size, char c)
-{
 	unsigned int n;
 	char *d;
 
@@ -30,5 +27,4 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 	}
 	return (d);
-}
 }
