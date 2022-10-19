@@ -6,21 +6,29 @@
 **/
 char *create_array(unsigned int size, char c)
 {
-	char *p;
-	unsigned int inv;
-	p = malloc(sizeof(char) * size);
-	if (size == 0 )
-		return("NULL");
-	if (p != NULL)
+ */
+char *create_array(unsigned int size, char c)
+{
+	unsigned int n;
+	char *d;
+
+	d = malloc(sizeof(char) * size);
+
+	if (size == 0)
 	{
-		while (inv < size)
+		return (NULL);
+	}
+	else if (d != NULL)
+	{
+		for (n = 0; n < size; n++)
 		{
-			p[inv] = c;
-			inv++;
+			d[n] = c;
 		}
 	}
 	else
+	{
 		return (NULL);
-	*(p + inv) = '\0';
-	return(p);
+	}
+	return (d);
+}
 }
