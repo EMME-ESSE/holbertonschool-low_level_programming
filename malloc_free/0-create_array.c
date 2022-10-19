@@ -8,7 +8,7 @@ char *create_array(unsigned int size, char c)
 {
 	char *p;
 	unsigned int inv;
-	p = (char *) malloc(sizeof(char) * size);
+	p = malloc(sizeof(char) * size);
 	if (size == 0 )
 		return("NULL");
 	if (p != NULL)
@@ -19,7 +19,7 @@ char *create_array(unsigned int size, char c)
 			inv++;
 		}
 	}
-	if (p == NULL)
+	else
 		return (NULL);
 	*(p + inv) = '\0';
 	return(p);
