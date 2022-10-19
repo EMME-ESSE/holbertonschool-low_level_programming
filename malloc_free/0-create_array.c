@@ -22,5 +22,5 @@ char *create_array(unsigned int size, char c)
 	else
 		return (NULL);
 	*(p + inv) = '\0';
-	return(p);
+	return(*p);
 }
