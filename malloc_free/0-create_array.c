@@ -7,15 +7,15 @@
 char *create_array(unsigned int size, char c)
 {
 	char *p;
+	unsigned int inv;
 	p = (char *) malloc(sizeof(char) * size);
-	unsigned int i;
 	if (size == 0 )
 		return("NULL");
-	while (i < size)
+	while (inv < size)
 	{
-		*(p + i) = c;
-		i++;
+		*(p + inv) = c;
+		inv++;
 	}
-	*(p + i) = '\0';
+	*(p + inv) = '\0';
 	return(p);
 }
