@@ -11,8 +11,9 @@ char *_strdup(char *str)
 		return(NULL);
 	if (string2 != NULL && str != NULL)
 	{			
-		for (i = 0; i < strlen(str) + 1; i++)
-			string2[i] = strlen(str) + 1;
+		for (i = 0; i <= strlen(str) + 1; i++)
+			string2 += str[i];
 	}
-	return (*string2);
+	return (string2);
+	free(string2);
 }
