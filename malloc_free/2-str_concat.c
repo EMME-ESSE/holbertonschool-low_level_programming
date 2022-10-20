@@ -12,15 +12,14 @@ char *str_concat(char *s1, char *s2)
 	int size;
 	int sizes1 = 0;
 
+	if (s1 == NULL)
+		 s1 = "";
+	if (s2 == NULL)
+		s2 = "";
 	size = strlen(s1) + strlen(s2);
 	pointer = malloc(sizeof(char) * size + 1);
 	if (pointer == NULL)
 		return (NULL);
-	  size = strlen(s1) + strlen(s2);
-	if (s1 == NULL)
-		s1 = "";
-	if (s2 == NULL)
-		s2 = "";
 	for (i = 0; s1[i]; i++)
 	{
 		pointer[i] = s1[i];
