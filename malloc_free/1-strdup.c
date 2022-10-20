@@ -4,11 +4,13 @@
  *  allocated space in memory, which contains a copy
  *   of the string given as a parameter
  *   @str: The first string
+ *   Return: The pointer to the string
 **/
 char *_strdup(char *str)
 {
 	unsigned int i;
 	char *string2;
+
 	string2 = malloc(sizeof(char) * strlen(str) + 1);
 
 	if (str == NULL)
