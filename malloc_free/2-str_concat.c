@@ -7,6 +7,7 @@ char *str_concat(char *s1, char *s2)
 	char *pointer;
 	int punto, i;
 	int size;
+	int sizes1 = 0;
 	size = strlen(s1) + strlen(s2);
 	if (s1 == NULL)
 		s1 = "";
@@ -17,9 +18,10 @@ char *str_concat(char *s1, char *s2)
 	if (pointer == NULL)
 		return (NULL);
 	for (i = 0; s1[i]; i++)
-		pointer[punto++] = s1[i];
+		pointer[i] = s1[i];
+		sizes1++;
 	for (i = 0; s2[i]; i++)
-		pointer[punto++] = s2[i];
+		pointer[sizes1++] = s2[i];
 	return (pointer);
 
 }
