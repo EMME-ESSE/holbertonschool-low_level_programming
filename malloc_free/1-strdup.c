@@ -11,7 +11,7 @@ char *_strdup(char *str)
 		return(NULL);
 	if (string2 != NULL && str != NULL)
 	{			
-		for (i = 0; i <= _strlen(str) + 1; i++)
+		for (i = 0; i <= string2; i++)
 			string2 += str[i];
 	}
 	return (string2);
