@@ -13,8 +13,6 @@ char *str_concat(char *s1, char *s2)
 	int sizes1 = 0;
 
 	size = strlen(s1) + strlen(s2);
-	if (size == NULL)
-		return (NULL);
 	pointer = malloc(sizeof(char) * size + 1);
 	if (pointer == NULL)
 		return (NULL);
