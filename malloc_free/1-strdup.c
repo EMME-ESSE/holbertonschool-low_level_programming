@@ -19,7 +19,7 @@ int _strlen(char *s)
  * */
 char *_strdup(char *str)
 {
-	unsigned int i;
+	int i;
 	char *string2;
 	string2 = malloc(sizeof(char) * _strlen(str) + 1);
 	if (str == NULL)
