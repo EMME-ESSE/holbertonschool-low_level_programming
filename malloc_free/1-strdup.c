@@ -4,7 +4,7 @@
  * */
 char *_strdup(char *str)
 {
-	int i;
+	unsigned int i;
 	char *string2;
 	string2 = malloc(sizeof(char) * strlen(str) + 1);
 	if (str == NULL)
