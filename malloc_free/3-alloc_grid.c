@@ -8,7 +8,7 @@
 **/
 int **alloc_grid(int width, int height)
 {
-	int i;
+	int iw, i;
 	int **puntero;
 
 	if (width <= 0 || height <= 0)
@@ -17,13 +17,23 @@ int **alloc_grid(int width, int height)
 	if (puntero == NULL)
 	{
 		return (NULL);
-		free(puntero);
 	}
-	for (i = 0; i < width; i++)
+
+	for (i = 0; i < height; i++)
 	{
 		puntero[i] = malloc(height * sizeof(int));
 		if (puntero[i] == NULL)
+		{
+			for (; i >= 0; i--)
+				free(pointer[i];
+			free(pointer);
 			return (NULL);
+		}
+	}
+	for (i = 0; i < height; i++)
+	{
+		for (iw = 0; iw < width; iw++)
+			pointer[i][iw] = 0;
 	}
 	return (puntero);
 }
