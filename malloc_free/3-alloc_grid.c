@@ -17,18 +17,17 @@ int **alloc_grid(int width, int height)
 	puntero = malloc(height * sizeof(int *));
 	if (puntero == NULL)
 	{
-		free(alloc_grid);
-		free(puntero);
 		return (NULL);
+		free(puntero);
 	}
 	for (i = 0; i < height; i++)
 	{
 		puntero[i] = malloc(width * sizeof(int));
 		if (puntero[i] == NULL)
 		{
-			free(puntero[i]);
-			free(puntero);
 			return (NULL);
+			free(puntero);
+			free(puntero[i]);
 		}
 	}
 	for (i = 0; i < height; i++)
