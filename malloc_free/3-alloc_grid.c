@@ -24,14 +24,19 @@ int **alloc_grid(int width, int height)
 	{
 		puntero[i] = malloc(height * sizeof(int));
 		if (puntero[i] == NULL)
-		{				
+		{	
+			for (; puntero[i] >= 0; i--)
+			{
+				free(puntero[i];
+			}
+			free(puntero)
 			return (NULL);
 		}
 	}
 	for (i = 0; i < height; i++)
 	{
 		for (iw = 0; iw < width; iw++)
-			pointer[i][iw] = 0;
+			puntero[i][iw] = 0;
 	}
 	return (puntero);
 }
