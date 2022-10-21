@@ -8,7 +8,8 @@
 **/
 int **alloc_grid(int width, int height)
 {
-	int iw, i;
+	int i;
+	int iw;
 	int **puntero;
 
 	if (width <= 0 || height <= 0)
