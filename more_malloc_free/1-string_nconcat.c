@@ -6,7 +6,7 @@
  * @n: the characters counter of s2.
  * Return:0
 **/
-char *string_nconcat(char *s1, char *s2, unsigned int n);
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *pointer;
 	int i;
