@@ -18,7 +18,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (s2 == NULL)
 		s2 = "";
 	size = strlen(s1) + strlen(s2);
-	if (n < sizes1)
+	if (n < strlen(s2))
 		pointer = malloc(sizeof(char) * (sizes1 + size + 1));
 	else
 		pointer = malloc(sizeof(char) * (n + size + 1));
