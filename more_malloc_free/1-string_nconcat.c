@@ -21,20 +21,24 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s1 = "";
         if (s2 == NULL)
 	        s2 = "";
+	printf("cabes");
 	for (i = 0; s1[i]; i++)
 	{
 		pointer[i] = s1[i];
 		sizes1++;
 	}
+	printf("dfsjfhskdf");
 	if (n != 0)
 	{
 		for (i = 0; s2[i]; i++)
 			pointer[sizes1++] = s2[i];
 	}
+	printf("BIBI3");
 	else
 	{
 		s2 = "";
 		pointer[sizes1++] = s2[i];
 	}
+	printf("soy el 4");
 	return (pointer);
 }
