@@ -31,7 +31,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	if (n != 0)
 	{
-		for (i = 0; s2[i]; i++)
+		for (i = 0; i <= n; i++)
 			pointer[sizes1++] = s2[i];
 	}
 	else
