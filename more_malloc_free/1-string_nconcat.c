@@ -36,7 +36,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	else
 	{
-		return(s1);
+		s2 == "";
+		pointer[sizes1++] = s2[i];
 	}
 	return (pointer);
 }
