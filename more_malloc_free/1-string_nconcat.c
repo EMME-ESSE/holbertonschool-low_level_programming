@@ -18,11 +18,11 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
          if (s2 == NULL)
 		return ("");
 	size = strlen(s1) + strlen(s2);
-	if (pointer == NULL)
-		return (NULL);
 	for (i = 0; s1[i] != '\0' ; i++)
 	{
 		pointer = malloc(sizeof(char) * size + 1);
+		if (pointer == NULL)
+			                return (NULL);
 		pointer[i] = s1[i];
 		sizes1++;
 	}
