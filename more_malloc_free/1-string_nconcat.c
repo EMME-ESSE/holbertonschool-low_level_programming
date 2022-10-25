@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *str_concat - Write a function that concatenates two strings
+ * *string_nconcat - Write a function that concatenates two strings
  * @s1: first string
  * @s2: second string
  * @n: the characters counter of s2.
@@ -13,9 +13,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	int size;
 	unsigned int sizes1 = 0;
 
- 	if (s1 == NULL)
+	if (s1 == NULL)
 		s1 = "";
-        if (s2 == NULL)
+	if (s2 == NULL)
 		s2 = "";
 	size = n;
 	if (n > strlen(s2))
