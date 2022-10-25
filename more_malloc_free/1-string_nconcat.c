@@ -21,14 +21,14 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		return ("");
         if (s2 == NULL)
 	        return ("");
-	for (i = 0; s1[i]; i++)
+	for (i = 0; s1[i] != '\0' ; i++)
 	{
 		pointer[i] = s1[i];
 		sizes1++;
 	}
 	if (n != 0)
 	{
-		for (i = 0; s2[i]; i++)
+		for (i = 0; s2[i] != '\0'; i++)
 			pointer[sizes1++] = s2[i];
 	}
 	return (pointer);
