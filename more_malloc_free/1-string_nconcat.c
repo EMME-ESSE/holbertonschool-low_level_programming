@@ -32,7 +32,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		pointer[sizes1++] = s2[i];
 	}
-	printf("%s\n", pointer);
 	pointer[i] = '\0';
 	return (pointer);
 }
