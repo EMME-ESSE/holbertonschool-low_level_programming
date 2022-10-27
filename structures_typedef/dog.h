@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- ** struct - a structure with three elements
+ ** struct dog - a structure with three elements
  ** @name: name
  ** @age: the age
  ** @owner: the owner
