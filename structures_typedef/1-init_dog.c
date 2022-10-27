@@ -2,7 +2,8 @@
 #define INIT_DOG
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
+#include "main.h
+"
 /**
  ** init_dog - a structure with three elements
  ** @d: the structure dog
