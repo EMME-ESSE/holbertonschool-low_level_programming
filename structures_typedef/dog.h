@@ -3,14 +3,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- ** struct my_struct - a structure with three elements
+ ** struct - a structure with three elements
  ** @name: name
  ** @age: the age
  ** @owner: the owner
 **/
 
 
-struct my_struct
+struct dog
 {
 	char *name;
 	float age;
