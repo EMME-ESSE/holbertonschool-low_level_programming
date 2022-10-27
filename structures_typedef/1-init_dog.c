@@ -1,0 +1,16 @@
+#ifndef INIT_DOG
+#define INIT_DOG
+#include <stdio.h>
+#include <stdlib.h>
+/**
+ ** init_dog - a structure with three elements
+ ** @d: the structure dog
+ ** @name: the name
+ ** @age: the age
+ ** @owner: the owner
+**/
+void init_dog(struct dog *d, char *name, float age, char *owner);
+{
+	struct dog my_dog;
+};
+#endif
