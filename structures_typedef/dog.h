@@ -2,7 +2,15 @@
 #define MY_STRUCT
 #include <stdio.h>
 #include <stdlib.h>
-typedef struct my_struct
+/**
+ ** struct my_struct - a structure with three elements
+ ** @name: name
+ ** @age: the age
+ ** @owner: the owner
+**/
+
+
+struct my_struct
 {
 	char *name;
 	float age;
