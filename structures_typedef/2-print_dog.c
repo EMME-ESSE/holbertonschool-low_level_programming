@@ -1,5 +1,3 @@
-#ifndef PRINT_DOG
-#define PRINT_DOG
 #include "dog.h"
 #include <stdlib.h>
 #include <stdio.h>
@@ -14,14 +12,13 @@ void print_dog(struct dog *d)
 	if (d->name == NULL)
 		printf("Name: (nil)\n");
 	else 
-		printf ("%s", d->name);
+		printf ("%s\n", d->name);
 	if (d->age < 0)
 		printf("(nil)\n");
 	else
-		printf ("%d", d->age);
+		printf ("%f\n", d->age);
 	if (d->owner == NULL)
 		printf("(nil)\n");
 	 else
-		printf ("%s", d->owner);
+		printf ("%s\n", d->owner);
 }
-#endif
