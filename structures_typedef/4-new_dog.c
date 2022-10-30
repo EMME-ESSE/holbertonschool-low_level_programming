@@ -7,36 +7,34 @@
  * @owner: owner of the dog
  * Return: it returns a pointer
 **/
-
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *newdog;
+	char *newdog_name, *newdog_owner;
 
-	if (name != NULL && owner != NULL)
+	newdog = malloc(sizeof(dog_t));
+	if (newdog == NULL)
+		return (NULL);
+
+	newdog_name = _strdup(name);
+	if (newdog_name == NULL)
 	{
-		newdog = malloc(sizeof(dog_t));
-		if (newdog == NULL)
-		{
-			return (NULL);
-		}
-		newdog->name = _strdup(name);
-		if (newdog->name == NULL)
-		{
-			free(newdog);
-			return (NULL);
-		}
-		newdog->owner = _strdup(owner);
-		if (newdog->owner == NULL)
-		{
-			free(newdog->name);
-			free(newdog);
-			return (NULL);
-		}
-		newdog->age = age;
+		free(newdog);
+		return (NULL);
 	}
+
+	newdog_owner = _strdup(owner);
+	if (newdog_owner == NULL)
+	{
+		free(newdog_name);
+		free(newdog);
+		return (NULL);
+	}
+	newdog->name = newdog_name;
+	newdog->age = age;
+	newdog->owner = newdog_owner;
 	return (newdog);
 }
-
 
 /**
  * _strdup - Duplicates a string
