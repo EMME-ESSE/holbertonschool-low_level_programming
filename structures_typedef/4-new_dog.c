@@ -55,7 +55,7 @@ char *_strdup(char *str)
 	if (string2 == NULL)
 		return (NULL);
 
-	for (i = 0; i <= strlen(str) + 1; i++)
+	for (i = 0; i <= strlen(str); i++)
 		string2[i] = str[i];
 	return (string2);
 }
