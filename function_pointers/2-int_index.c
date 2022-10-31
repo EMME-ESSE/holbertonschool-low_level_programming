@@ -4,7 +4,7 @@
  *@array: the primary array
  *@size: the number of elements
  *@cmp: pointer to the function to be used to compare values
- *Return:
+ *Return: the searched integer
 **/
 int int_index(int *array, int size, int (*cmp)(int))
 {
