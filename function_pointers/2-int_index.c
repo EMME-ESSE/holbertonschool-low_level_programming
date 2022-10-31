@@ -5,11 +5,11 @@
 **/
 int int_index(int *array, int size, int (*cmp)(int))
 {
-	if (array <= 0)
+	if (array == NULL)	
 		return;
 	if (size <= 0)
 		return(-1);
-	if(cmp == 0)
+	if(cmp == NULL)
 		return;
 	while (size --> 0)
 	{
