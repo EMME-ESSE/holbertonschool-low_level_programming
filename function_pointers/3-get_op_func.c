@@ -16,5 +16,11 @@ int (*get_op_func(char *symb))(int, int)
 		{"%", op_mod},
 		{NULL, NULL}
 	};
-	return (ops);
+	int i = 0;
+
+		while (ops[i].op != NULL && *(ops[i].op) != *s)
+				{
+							i++;
+								}
+			return (ops[i].f);
 }
