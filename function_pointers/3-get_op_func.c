@@ -22,5 +22,5 @@ int (*get_op_func(char *symb))(int, int)
 				{
 							i++;
 								}
-			return (ops[i]);
+			return (ops);
 }
