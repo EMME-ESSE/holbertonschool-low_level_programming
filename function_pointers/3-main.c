@@ -1,4 +1,10 @@
 #include "3-calc.h"
+/**
+ *  * main - conditions and picker
+ *   * Return: 0 on succes
+ *    * @argc: Number of arguments
+ *     * @argv: Array of arguments
+**/
 int main(int argc, char *argv[])
 {
 	char *op;
