@@ -16,5 +16,5 @@ int (*get_op_func(char *symb))(int, int)
 		{"%", op_mod},
 		{NULL, NULL}
 	};
-int i;
+	return (ops);
 }
