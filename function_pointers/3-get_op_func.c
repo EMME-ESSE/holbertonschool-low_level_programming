@@ -5,7 +5,7 @@
  *  * get_op_func - Select the correct operator
  *   * Return: Operator
  *    * @symb: Operator writed by the user
- *     */
+**/
 int (*get_op_func(char *symb))(int, int)
 {
 	op_t ops[] = {
@@ -17,6 +17,7 @@ int (*get_op_func(char *symb))(int, int)
 		{NULL, NULL}
 	};
 	int i = 0;
+
 	while (ops[i].op != NULL && *(ops[i].op) != *symb)
 	{
 		i++;
