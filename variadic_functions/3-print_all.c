@@ -68,3 +68,7 @@ void print_string(va_list arg)
  * @format: A string of characters representing the argument types.
  * @...: A variable number of arguments to be printed.
 **/
+void print_all(const char * const format, ...)
+{
+	printf("%s", format);
+}
