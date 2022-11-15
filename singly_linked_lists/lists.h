@@ -1,5 +1,8 @@
 #ifndef LISTS_H
 #define LISTS_H
+/**
+ * list_s - Struct for the linked list
+**/
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
